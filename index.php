@@ -8,7 +8,7 @@ use MicrosoftAzure\Storage\Blob\Models\ListBlobsOptions;
 use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
 use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
 
-$connectionString = "DefaultEndpointsProtocol=https;AccountName=" . getenv('ACCOUNT_NAME') . ";AccountKey=" . getenv('ACCOUNT_KEY');
+$connectionString = "DefaultEndpointsProtocol=https;AccountName=ceikdowebapp;AccountKey=TO7TAuuu/q0Wkjrq7rluDqarCTlfXjofXAts0qub+ELgw4q3xXPS2sryKdP54nPUD2BwquUiW69dsqX9Y0Yq/Q==;EndpointSuffix=core.windows.net";
 $blobClient = BlobRestProxy::createBlobService($connectionString);
 $containerName = "ceikdosubmission2";
 
