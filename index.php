@@ -67,7 +67,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
 <br>
 
 <table align="center">
-    <th> <form action="upload.php" method="post" enctype="multipart/form-data">
+    <th> <form action="index.php" method="post" enctype="multipart/form-data">
             <input type="file" name="fileToUpload" accept=".jpeg,.jpg,.png" required="">
             <input type="submit" name="submit" value="Upload">
         </form></th>
