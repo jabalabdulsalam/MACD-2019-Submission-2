@@ -3,10 +3,10 @@ if (isset($_POST['submit'])) {
     if (isset($_POST['url'])) {
         $url = $_POST['url'];
     } else {
-        header("Location: upload.php");
+        header("Location: index.php");
     }
 } else {
-    header("Location: upload.php");
+    header("Location: index.php");
 }
 ?>
 
